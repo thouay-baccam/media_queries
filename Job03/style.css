@@ -1,0 +1,25 @@
+section{
+    background-color:#88c1d0;
+    margin:2px;
+}
+@media only screen and (min-width:1600px){
+    body{
+        display:flex;
+        flex-direction: row;
+    }
+    section{
+        width:25%
+    }
+}
+@media only screen and (min-width:768px) and (max-width:1599px){
+    body{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+@media only screen and (max-width:767px){
+    body{
+        display:block
+    }
+}
